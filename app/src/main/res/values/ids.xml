@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="today_text" type="id" />
+    <item name="tomorrow_text" type="id" />
+    <item name="pending_text" type="id" />
+    <item name="recurring_text" type="id" />
+</resources>

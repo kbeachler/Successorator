@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_bar_menu_add_task"
+        android:title="@string/add_task"
+        android:icon="@drawable/ic_add"
+        android:orderInCategory="2"
+        app:iconTint="@color/white"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_bar_menu_fast_forward"
+        android:title="@string/advance_time"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_forward_date"
+        app:iconTint="@color/white"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_bar_menu_drop"
+        android:icon="@drawable/ic_drop"
+        android:orderInCategory="0"
+        android:title="@string/drop_down"
+        app:iconTint="@color/white"
+        app:showAsAction="always">
+        <menu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <item
+                android:id="@+id/today_text"
+                android:title="Today"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/tomorrow_text"
+                android:title="Tomorrow"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/pending_text"
+                android:title="Pending"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/recurring_text"
+                android:title="Recurring"
+                app:showAsAction="never" />
+
+
+        </menu>
+    </item>
+<!--        android:onClick="showMenu"-->
+
+
+</menu>

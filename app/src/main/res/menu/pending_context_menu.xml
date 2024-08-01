@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/pending_to_today"
+        android:title="Move to today"/>
+    <item
+        android:id="@+id/pending_to_tomorrow"
+        android:title="Move to tomorrow"/>
+    <item
+        android:id="@+id/pending_mark_as_complete"
+        android:title="Mark as completed"/>
+    <item
+        android:id="@+id/pending_delete"
+        android:title="Delete task"/>
+
+
+</menu>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Successorator</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="hello_world">No goals for the day.</string>
+    <string name="add_task">Add Task</string>
+    <string name="advance_time"> Advance Time</string>
+    <string name="drop_down"> Drop Down</string>
+    <string-array name="dropdown_options">
+        <item>Today</item>
+        <item>Tomorrow</item>
+        <item>Pending</item>
+        <item>Recurring</item>
+    </string-array>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>

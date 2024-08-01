@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Set stroke color and width for the outline -->
+    <stroke
+        android:color="#D267E4"
+        android:width="2dp" />
+
+    <!-- Set size for the oval -->
+    <size
+        android:height="40dp"
+        android:width="40dp" />
+
+</shape>
